@@ -1,0 +1,83 @@
+body {
+    margin:0;
+    font-family: "Montserrat", "sans-serif";
+    background-color: #f7f7f7;
+}
+
+.container {
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0,.2);
+    margin: 0 auto;
+    margin-top: 50px;
+    max-width: 600px;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+
+}
+
+form {
+    margin: 20px;
+    display: inline-block;
+    
+}
+
+form input[type="text"] {
+    padding: 8px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button[type="submit"] {
+    background-color: rgb(90, 90, 196);
+    margin-left: 10px;
+    color: #fff;
+    border: none;
+    padding: 8px 18px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+form button[type="submit"]:hover {
+    background-color: rgb(49, 49, 125);
+
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+    
+}
+
+.items {
+    margin-top: 20px;
+}
+
+.item p {
+    margin: 0;
+    font-size: 16px;
+    padding-right: 10px;
+}
+
+.item button {
+    background-color: #ff4d4d;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.item button:hover {
+    background-color: #cc0000;
+}
